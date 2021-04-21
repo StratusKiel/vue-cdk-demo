@@ -28,6 +28,7 @@
     "@aws-cdk/aws-iam": "^1.100.0",
     "@aws-cdk/aws-s3": "^1.100.0",
     "@aws-cdk/aws-s3-deployment": "^1.100.0",
+    "@aws-cdk/cloud-assembly-schema": "^1.100.0",
     "@aws-cdk/core": "1.100.0",
     "@aws-cdk/pipelines": "^1.100.0",
     "source-map-support": "^0.5.16"
