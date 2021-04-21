@@ -33,7 +33,7 @@ export class VueCdkDemoPipelineStack extends cdk.Stack {
       synthAction: pipelines.SimpleSynthAction.standardNpmSynth({
         sourceArtifact,
         cloudAssemblyArtifact: destinationArtifact,
-        buildCommand: '(cd vue && npm ci && npm run build)'
+        buildCommand: 'npx cdk --version && (cd vue && npm ci && npm run build)'
       })
      });
 
